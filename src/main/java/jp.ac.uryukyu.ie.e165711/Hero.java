@@ -1,3 +1,5 @@
+package jp.ac.uryukyu.ie.e165711;
+
 /*** ヒーロークラス。
  *  String name; //敵の名前
  *  int hitPoint; //敵のHP
@@ -24,13 +26,15 @@ public class Hero extends LivingThing {
             if (damage == 0) {
                 System.out.printf("%sの攻撃！,,,だが，%sは攻撃を回避した！！\n", getName(), opponent.getName());
             } else {
-                if (rate <= 30) {
+                if (rate <= 3) {
+                    damage = damage * 2;
                     System.out.printf("%sの攻撃！会心の一撃！！%sに%dのダメージを与えた！！\n", getName(), opponent.getName(), damage);
                 } else {
                     System.out.printf("%sの攻撃！%sに%dのダメージを与えた！！\n", getName(), opponent.getName(), damage);
                 }
+                opponent.wounded(damage);
             }
-            opponent.wounded(damage);
+
         }
     }
 

@@ -1,4 +1,6 @@
-/**
+package jp.ac.uryukyu.ie.e165711;
+
+/** Mainクラス
  * Created by e165711 on 2016/11/26.
  */
 public class Main {

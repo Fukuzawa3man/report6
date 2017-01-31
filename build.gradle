@@ -15,9 +15,6 @@ dependencies {
 
 jar {
     manifest {
-        attributes  "Enemy-Class": "jp.ac.uryukyu.ie.e165711.Enemy"
-        attributes  "Hero-Class": "jp.ac.uryukyu.ie.e165711.Hero"
-        attributes  "LivingThing-Class": "jp.ac.uryukyu.ie.e165711.LivingThing"
         attributes  "Main-Class": "jp.ac.uryukyu.ie.e165711.Main"
         attributes 'Implementation-Title': 'Gradle Quickstart', 'Implementation-Version': version
     }

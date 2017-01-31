@@ -1,3 +1,5 @@
+package jp.ac.uryukyu.ie.e165711;
+
 /**
  *  敵クラス．
  *  String name; //敵の名前

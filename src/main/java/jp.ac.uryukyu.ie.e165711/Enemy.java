@@ -1,6 +1,6 @@
 package jp.ac.uryukyu.ie.e165711;
 /**
- *  敵クラス。
+ *  敵クラス。 
  *  String name; //敵の名前
  *  int hitPoint; //敵のHP
  *  int attack; //敵の攻撃力
