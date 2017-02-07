@@ -22,6 +22,7 @@ public class LivingThing {
      * @param maximumHP 勇者orモンスターのHP
      * @param attack    勇者orモンスターの攻撃力
      */
+
     public LivingThing(String name, int maximumHP, int attack) {
         this.name = name;
         hitPoint = maximumHP;
@@ -48,13 +49,15 @@ public class LivingThing {
         return this.name;
     }
 
-    public void setHitPoint(int hitPoint){ this.hitPoint = hitPoint;}
+    public void setHitPoint(int hitPoint){
+        this.hitPoint = hitPoint;}
 
     public int getHitPoint(){
         return this.hitPoint;
     }
 
-    public int getattack(){ return this.attack; }
+    public int getattack(){
+        return this.attack; }
 
 
     /**
